@@ -8,7 +8,7 @@ margin-top:0em;
 }
 
 #wrapper {
-background: rgb(255, 235, 238);
+background: white;
 
 }
 
@@ -26,7 +26,6 @@ div#carousel.carousel.slide{
 
 #header .header-top{
   padding-bottom: 0px;
-  position: fixed;
     z-index: 200;
     background: white;
     width: 100%;
@@ -119,5 +118,19 @@ ul li a figure{
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+section#main{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.encabezado{
+	background:#cb0d58;
+	    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10pc; 
+    padding-left: 20px;
 }
 
