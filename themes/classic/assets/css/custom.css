@@ -2,3 +2,122 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+#header .header-nav {
+max-height: 0px;
+margin-top:0em;
+}
+
+#wrapper {
+background: rgb(255, 235, 238);
+
+}
+
+#carousel {
+  height: 100%;
+}
+
+div#carousel.carousel.slide{
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -9px;
+  height: 100%;
+  margin-bottom: 0rem; 
+}
+
+#header .header-top{
+  padding-bottom: 0px;
+  position: fixed;
+    z-index: 200;
+    background: white;
+    width: 100%;
+}
+
+section#wrapper{
+  padding-top: 0.563rem;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+#header .header-nav{
+  margin-bottom: 0;
+}
+
+.flex-parent{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+ 
+.flex-child{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#header .header-top a[data-depth="0"]{
+  text-transform: capitalize;
+}
+
+div#custom-text{
+  margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0rem;
+    height: 100vh;
+}
+.contenedor
+  {
+    width:500px;
+    height:300px;
+    line-height:300px;
+    border:1px solid;
+    text-align:center;
+  }
+  .contenedor>span {
+    display:inline-block;
+    vertical-align:middle;
+    line-height:normal;
+  }
+#main .page-footer {
+    margin-bottom: 0rem;
+}
+
+ul{
+      margin-bottom: 0rem;
+}
+
+ul li a figure{
+  margin-bottom: 0px;
+}
+
+.footer-container li a {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+.h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-container{
+  background:pink;
+}
+
+.h3 a.text-uppercase{
+  color: white;
+}
+
+#block_myaccount_infos .myaccount-title a{
+  color: white;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+

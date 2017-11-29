@@ -1,2 +1,6 @@
 *ERROR* 	v1.7.2.3	2017/11/09 - 12:00:30: Link to database cannot be established:SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) at line 102 in file classes/db/DbPDO.php
 *ERROR* 	v1.7.2.3	2017/11/09 - 12:00:49: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'marta' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.3	2017/11/09 - 19:32:36: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'marta' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.3	2017/11/09 - 19:32:50: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'marta' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.3	2017/11/09 - 19:33:02: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'marta' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.3	2017/11/09 - 19:34:51: Shop not found at line 418 in file classes/shop/Shop.php

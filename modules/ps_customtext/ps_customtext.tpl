@@ -23,6 +23,8 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div id="custom-text">
-  {$cms_infos.text nofilter}
+<div id="custom-text" class="flex-parent">
+	<div class="row flex-child">
+  		{$cms_infos.text nofilter}
+	</div>
 </div>

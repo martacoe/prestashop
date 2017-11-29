@@ -2246,7 +2246,7 @@ abstract class ModuleCore
             }
 
             $this->resetCurrentSubTemplate($template, $cache_id, $compile_id);
-
+            
             return $result;
         }
     }

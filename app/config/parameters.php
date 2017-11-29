@@ -5,7 +5,7 @@
     'database_port' => '',
     'database_name' => 'marta',
     'database_user' => 'root',
-    'database_password' => '',
+    'database_password' => 'root',
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
