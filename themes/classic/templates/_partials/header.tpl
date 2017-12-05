@@ -55,13 +55,13 @@
 {block name='header_top'}
   <div class="header-top">
     <div class="container-fluid">
-       <div class="row flex-parent">
-        <div class="col-md-1 hidden-sm-down flex-child" id="_desktop_logo">
+       <div class="row">
+        <div class="col-md-1 hidden-sm-down" id="_desktop_logo">
           <a href="{$urls.base_url}">
             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
           </a>
         </div>
-        <div class="col-md-10 col-sm-10 position-static flex-child">
+        <div class="col-md-10 col-sm-10 position-static">
           <div class="row">
             {hook h='displayTop'}
             <div class="clearfix"></div>

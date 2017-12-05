@@ -6,6 +6,14 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title> ¿Cómo encontrar las mejores palabras clave para la web de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/palabras-clave</link>
+    <description>¿Aún no conoces la verdadera importancia de elegir unas buenas palabras clave para optimizar la web de tu tienda online?</description>
+     <pubDate>Thu, 30 Nov 2017 11:10:10 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/palabras-clave</guid>
+  </item>
+  <item>
     <title>Claves de &amp;quot;Barqet&amp;quot; para el diseño web de un eCommerce de moda</title>
     <link>https://www.prestashop.com/es/blog/barqet</link>
     <description>A la hora de crear una tienda online, hay muchos aspectos a tener en cuenta. Y eso lo saben muy bien los integrantes de Barqet, la marca protagonista del artículo de hoy.</description>
@@ -77,14 +85,6 @@ Esta es una pregunta recurrente a la que, muchos profesionales de este sector, e
      <pubDate>Mon, 30 Oct 2017 13:39:45 +0100</pubDate>
  <dc:creator>bertrand</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/contratar-agencia-partner-prestashop</guid>
-  </item>
-  <item>
-    <title>¿Cómo ahorrar con un comparador de envíos en tu eCommerce? </title>
-    <link>https://www.prestashop.com/es/blog/comparador-de-envios</link>
-    <description>Los comparadores de envíos irrumpieron en España en el año 2011, satisfaciendo una de las grandes necesidades de las empresas del sector eCommerce: disponer de un servi</description>
-     <pubDate>Thu, 26 Oct 2017 12:07:39 +0200</pubDate>
- <dc:creator>Genei</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/comparador-de-envios</guid>
   </item>
   </channel>
 </rss>

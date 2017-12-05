@@ -33,6 +33,7 @@
           </a>
           <meta itemprop="position" content="{$smarty.foreach.breadcrumb.iteration}">
         </li>
+        
       {/block}
     {/foreach}
   </ol>
