@@ -6,6 +6,22 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Crear tienda online: ¿cómo diseñar tu eCommerce paso a paso?</title>
+    <link>https://www.prestashop.com/es/blog/como-crear-tienda-online</link>
+    <description>¿Estás interesado en crear una tienda online para tu negocio?</description>
+     <pubDate>Mon, 11 Dec 2017 13:56:17 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-crear-tienda-online</guid>
+  </item>
+  <item>
+    <title> ¿Cómo mejorar el buscador interno de nuestra tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/buscador-interno-tienda-online</link>
+    <description>Hay una funcionalidad muy importante dentro de las tiendas online, que muchas veces la pasamos por encima y no le damos la importancia que se merece: el buscador interno de tu eCommerce</description>
+     <pubDate>Thu, 07 Dec 2017 18:52:13 +0100</pubDate>
+ <dc:creator>Javier Gosende</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/buscador-interno-tienda-online</guid>
+  </item>
+  <item>
     <title> ¿Cómo encontrar las mejores palabras clave para la web de tu eCommerce?</title>
     <link>https://www.prestashop.com/es/blog/palabras-clave</link>
     <description>¿Aún no conoces la verdadera importancia de elegir unas buenas palabras clave para optimizar la web de tu tienda online?</description>
@@ -68,23 +84,6 @@
      <pubDate>Fri, 03 Nov 2017 10:07:19 +0100</pubDate>
  <dc:creator>David Ayala</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-linkbuilding</guid>
-  </item>
-  <item>
-    <title>Tendencias SEO para el 2018 ¡un año digital muy movidito!</title>
-    <link>https://www.prestashop.com/es/blog/tendencias-seo-2018</link>
-    <description>¿Qué tendencias SEO tendremos en 2018?
-Esta es una pregunta recurrente a la que, muchos profesionales de este sector, empezamos a buscar respuesta desde mucho antes de acabar 2017.</description>
-     <pubDate>Tue, 31 Oct 2017 13:28:37 +0100</pubDate>
- <dc:creator>JordiOrdoñez</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/tendencias-seo-2018</guid>
-  </item>
-  <item>
-    <title>8 razones para contratar a una agencia Partner PrestaShop </title>
-    <link>https://www.prestashop.com/es/blog/contratar-agencia-partner-prestashop</link>
-    <description>¿Estás pensando en crear un eCommerce con el que puedas ganarte la vida online? ¿Tienes ya una tienda online pero sin ventas y necesitas aumentar tu credibilidad ante tus potenciales clientes?</description>
-     <pubDate>Mon, 30 Oct 2017 13:39:45 +0100</pubDate>
- <dc:creator>bertrand</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/contratar-agencia-partner-prestashop</guid>
   </item>
   </channel>
 </rss>

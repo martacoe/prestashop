@@ -102,6 +102,7 @@
 		</style>
 	-->
 	{/if}
+
 </head>
 
 {if $display_header}

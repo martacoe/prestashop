@@ -27,7 +27,7 @@ div#carousel.carousel.slide{
 #header .header-top{
   padding-bottom: 0px;
     z-index: 200;
-    background: white;
+    background: rgba(0,0,0,0.8);
     width: 100%;
 }
 
@@ -59,13 +59,14 @@ section#wrapper{
 #header .header-top a[data-depth="0"]{
   text-transform: uppercase;
   font-size: 0.9rem;
+  color: white;
 }
 
 div#custom-text{
   margin-left: -15px;
     margin-right: -15px;
     margin-bottom: 0rem;
-    height: 100vh;
+    height: 100%;
 }
 .contenedor
   {
@@ -115,7 +116,8 @@ ul li a figure{
   color: white;
 }
 
-.img-responsive{
+.img-responsive, .thumbnail > img,
+.thumbnail a > img{
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -290,3 +292,92 @@ ul li a figure{
   }
 }
 
+div#_desktop_top_menu.menu.col-lg-12.col-md-12.js-top-menu.position-static.hidden-sm-down{
+	margin-top: -2px;
+	margin-left: 0px;
+  margin-bottom: -5px;
+}
+
+ul#top-menu.top-menu{
+  text-align: center;
+}
+
+#header .header-top .menu>ul>li{
+	float: none;
+	display: inline-block;
+}
+
+img.logo.img-responsive{
+	height: 60px;
+}
+
+li#cms-page-index.cms-page{
+  vertical-align: middle;
+}
+.img-page:hover{
+	transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-webkit-transform: scale(1.05, 1.05);
+}
+
+@media (max-width: 991px){
+  #header .logo {
+    margin: auto;
+    display:block;
+  }
+}
+
+#home-logo{
+	max-width: 300px;
+	margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 2.6rem;
+}
+
+img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+#boton-home{
+  margin-top: 15px;
+}

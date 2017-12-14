@@ -22,8 +22,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div id="_desktop_contact_link">
-  <div id="contact-link">
+  <li class="cms-page" id="cms-page-14">
     {if $contact_infos.phone}
       {* [1][/1] is for a HTML tag. *}
       {l
@@ -36,7 +35,6 @@
         d='Shop.Theme.Global'
       }
     {else}
-      <a href="{$urls.pages.contact}">{l s='Contact us' d='Shop.Theme.Global'}</a>
+      <a class="dropdown-item" href="{$urls.pages.contact}" data-depth="0">{l s='Contact us' d='Shop.Theme.Global'}</a>
     {/if}
-  </div>
-</div>
+  </li>

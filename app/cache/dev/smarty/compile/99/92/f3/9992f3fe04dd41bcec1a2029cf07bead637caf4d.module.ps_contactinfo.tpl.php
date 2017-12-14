@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-17 11:26:46
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-12 11:54:07
          compiled from "module:ps_contactinfo/ps_contactinfo.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11001038065a0eb966685e68-02918762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9992f3fe04dd41bcec1a2029cf07bead637caf4d' => 
     array (
       0 => 'module:ps_contactinfo/ps_contactinfo.tpl',
-      1 => 1510252210,
+      1 => 1513075933,
       2 => 'module',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0eb9666a7135_53216073',
   'variables' => 
   array (
     'contact_infos' => 0,
     'urls' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0eb9666a7135_53216073',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0eb9666a7135_53216073')) {function content_5a0eb9666a7135_53216073($_smarty_tpl) {?><!-- begin /Applications/MAMP/htdocs/prestashop/themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl -->
 

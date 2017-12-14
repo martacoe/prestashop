@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-17 11:26:46
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-12 11:51:58
          compiled from "module:ps_mainmenu/ps_mainmenu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13652696815a0eb96653ce47-61819894%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '41df1985130dffd7d3fe4cb369091546a0b40be7' => 
     array (
       0 => 'module:ps_mainmenu/ps_mainmenu.tpl',
-      1 => 1510675658,
+      1 => 1513075896,
       2 => 'module',
     ),
   ),
@@ -27,6 +27,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       'compiled' => '',
     ),
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a0eb966578599_86272548',
   'variables' => 
   array (
     'nodes' => 0,
@@ -37,8 +39,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'menu' => 0,
   ),
   'has_nocache_code' => 0,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0eb966578599_86272548',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0eb966578599_86272548')) {function content_5a0eb966578599_86272548($_smarty_tpl) {?><!-- begin /Applications/MAMP/htdocs/prestashop/themes/classic/modules/ps_mainmenu/ps_mainmenu.tpl --><?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable(0, null, 0);?>
 <?php if (!function_exists('smarty_template_function_menu')) {
@@ -49,12 +49,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <?php if (count($_smarty_tpl->tpl_vars['nodes']->value)) {?>
       <ul class="top-menu" <?php if ($_smarty_tpl->tpl_vars['depth']->value==0) {?>id="top-menu"<?php }?> data-depth="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['depth']->value, ENT_QUOTES, 'UTF-8');?>
 ">
+        <li class="cms-page" id="cms-page-index" >
+                          <a href="http://localhost/prestashop/" class="dropdown-item">
+            <img class="logo img-responsive" src="/prestashop/img/asociacion-santa-agueda-logo-1512671581.jpg" alt="Asociación Santa Agueda">
+          </a>
+        </li>
         <?php  $_smarty_tpl->tpl_vars['node'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['node']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['nodes']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['node']->key => $_smarty_tpl->tpl_vars['node']->value) {
 $_smarty_tpl->tpl_vars['node']->_loop = true;
 ?>
-            <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['type'], ENT_QUOTES, 'UTF-8');?>
+
+             <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['type'], ENT_QUOTES, 'UTF-8');?>
 <?php if ($_smarty_tpl->tpl_vars['node']->value['current']) {?> current <?php }?>" id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['page_identifier'], ENT_QUOTES, 'UTF-8');?>
 ">
             <?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable($_smarty_tpl->tpl_vars['_counter']->value+1, null, 0);?>
@@ -88,6 +94,8 @@ $_smarty_tpl->tpl_vars['node']->_loop = true;
               <?php }?>
             </li>
         <?php } ?>
+        <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayNav1'),$_smarty_tpl);?>
+
       </ul>
     <?php }?>
 <?php $_smarty_tpl->tpl_vars = $saved_tpl_vars;
