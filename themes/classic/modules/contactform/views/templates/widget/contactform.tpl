@@ -24,7 +24,6 @@
  *}
 <section class="contact-form">
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
-
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
         <ul>

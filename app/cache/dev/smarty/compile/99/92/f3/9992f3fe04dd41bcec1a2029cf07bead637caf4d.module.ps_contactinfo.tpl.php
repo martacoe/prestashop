@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-12 11:54:07
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-20 10:35:48
          compiled from "module:ps_contactinfo/ps_contactinfo.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11001038065a0eb966685e68-02918762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9992f3fe04dd41bcec1a2029cf07bead637caf4d' => 
     array (
       0 => 'module:ps_contactinfo/ps_contactinfo.tpl',
-      1 => 1513075933,
+      1 => 1513762545,
       2 => 'module',
     ),
   ),
@@ -30,6 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <div class="hidden-sm-down">
     <h4 class="text-uppercase block-contact-title"><?php echo smartyTranslate(array('s'=>'Store information','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </h4>
+
       <?php echo $_smarty_tpl->tpl_vars['contact_infos']->value['address']['formatted'];?>
 
       <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['phone']) {?>
@@ -50,12 +51,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <?php echo smartyTranslate(array('s'=>'Email us: [1]%email%[/1]','sprintf'=>array('[1]'=>'<span>','[/1]'=>'</span>','%email%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['email']),'d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 
       <?php }?>
+      
   </div>
   <div class="hidden-md-up">
     <div class="title">
       <a class="h3" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['stores'], ENT_QUOTES, 'UTF-8');?>
 "><?php echo smartyTranslate(array('s'=>'Store information','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </a>
+
     </div>
   </div>
 </div>

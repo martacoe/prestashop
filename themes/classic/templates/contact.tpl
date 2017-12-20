@@ -27,8 +27,13 @@
 {block name='page_header_container'}{/block}
 
 {block name='left_column'}
-  <div id="left-column" class="col-xs-12 col-sm-3">
+  <div id="left-column" class="col-xs-12 col-sm-4">
     {widget name="ps_contactinfo" hook='displayLeftColumn'}
+    <div class="block-social col-lg-4 col-md-3 col-sm-12">
+    <ul>
+        <li class="facebook"><a href="https://www.facebook.com/SantaAguedaPuertollano/" target="_blank">Facebook</a></li>
+    </ul>
+  </div>
   </div>
 {/block}
 

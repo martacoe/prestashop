@@ -24,10 +24,12 @@
  *}
 
 <div class="contact-rich">
+
   <h4>{l s='Store information' d='Shop.Theme.Global'}</h4>
   <div class="block">
     <div class="icon"><i class="material-icons">&#xE55F;</i></div>
     <div class="data">{$contact_infos.address.formatted nofilter}</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.3738671022656!2d-4.1080114849222875!3d38.68625556696765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6b8cf4ae7c258f%3A0x8874538f015f9871!2sAsociacion+Santa+Agueda!5e0!3m2!1ses!2ses!4v1513761999489" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
   {if $contact_infos.phone}
     <hr/>

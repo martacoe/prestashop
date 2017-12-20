@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-04 12:42:56
+<?php /* Smarty version Smarty-3.1.19, created on 2017-12-20 10:42:15
          compiled from "/Applications/MAMP/htdocs/prestashop/themes/classic/modules/contactform/views/templates/widget/contactform.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:351582565a2534c01be452-47566045%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c712ef45e8521eaae5c0509276bafcf4d9036acb' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop/themes/classic/modules/contactform/views/templates/widget/contactform.tpl',
-      1 => 1510252210,
+      1 => 1513762932,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a2534c01fb7a0_08491360',
   'variables' => 
   array (
     'urls' => 0,
@@ -25,14 +27,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'order' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a2534c01fb7a0_08491360',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a2534c01fb7a0_08491360')) {function content_5a2534c01fb7a0_08491360($_smarty_tpl) {?>
 <section class="contact-form">
   <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['contact'], ENT_QUOTES, 'UTF-8');?>
 " method="post" <?php if ($_smarty_tpl->tpl_vars['contact']->value['allow_file_upload']) {?>enctype="multipart/form-data"<?php }?>>
-
     <?php if ($_smarty_tpl->tpl_vars['notifications']->value) {?>
       <div class="col-xs-12 alert <?php if ($_smarty_tpl->tpl_vars['notifications']->value['nw_error']) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
         <ul>

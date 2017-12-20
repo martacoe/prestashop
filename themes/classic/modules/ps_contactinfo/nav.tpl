@@ -23,6 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
   <li class="cms-page" id="cms-page-14">
+
     {if $contact_infos.phone}
       {* [1][/1] is for a HTML tag. *}
       {l
@@ -36,5 +37,7 @@
       }
     {else}
       <a class="dropdown-item" href="{$urls.pages.contact}" data-depth="0">{l s='Contact us' d='Shop.Theme.Global'}</a>
+      
+    
     {/if}
   </li>
