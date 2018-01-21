@@ -1,0 +1,24 @@
+"Product ID";Image;Name;Reference;Category;"Base price";"Final price";Quantity;Status;Position
+10;http://localhost/prestashop/26/anillo-plateado.jpg;Anillo;anillo1;Anillos;8.000000;8;11;0;
+11;http://localhost/prestashop/28/broche-mediano-con-piedras.jpg;"Broche redondo con piedras";broche1;Broches;7.000000;7;0;1;
+13;http://localhost/prestashop/31/broche-grande-con-lazos.jpg;"Broche grande con lazos";broche2;Broches;10.000000;10;0;1;
+14;http://localhost/prestashop/34/broche-mediano-con-lazos.jpg;"Broche con lazos";broche3;Broches;8.000000;8;0;1;
+15;http://localhost/prestashop/37/broche-osito-dorado.jpg;"Broche osito";broche4;Broches;8.000000;8;0;1;
+16;http://localhost/prestashop/46/broche-con-piedras.jpg;"Broche con piedras";broche5;Broches;7.000000;7;0;1;
+17;http://localhost/prestashop/49/broche-redondo-liso.jpg;"Broche redondo liso";broche6;Broches;6.000000;6;0;1;
+19;http://localhost/prestashop/51/medallon-con-cadena.jpg;"Medallón con cadena";medallon1;Medallones;10.000000;10;0;1;
+20;http://localhost/prestashop/54/medallon-liso.jpg;"Medallón liso";medallon2;Medallones;6.000000;6;0;1;
+21;http://localhost/prestashop/53/medallon-con-piedras.jpg;"Medallón con piedras";medallon3;Medallones;7.000000;7;0;1;
+22;http://localhost/prestashop/57/pendientes-lazo-rosa.jpg;"Pendientes lazo rosa";pendientes1;Pendientes;5.000000;5;0;1;
+23;http://localhost/prestashop/58/pendientes-lazo-rosa-con-perla.jpg;"Pendientes lazo rosa con perla";pendientes2;Pendientes;5.000000;5;0;1;
+24;http://localhost/prestashop/60/pendientes-warm.jpg;"Pendientes warm";pendientes3;Pendientes;2.000000;2;0;1;
+26;http://localhost/prestashop/61/monedero-pequeno.jpg;Monedero;monedero1;Monederos;10.000000;10;0;1;
+28;http://localhost/prestashop/71/pendientes-pintados.jpg;"Pendientes pintados";pendientes4;Pendientes;4.000000;4;0;1;
+29;http://localhost/prestashop/72/pulsera-jade-rosa.jpg;"Pulsera jade rosa";pulsera1;Pulseras;7.000000;7;0;1;
+30;http://localhost/prestashop/73/pulsera-cordon-lazo.jpg;"Pulsera cordón lazo";pulsera2;Pulseras;5.000000;5;0;1;
+32;http://localhost/prestashop/76/pulsera-lazos-joya.jpg;"Pulsera lazos joya";pulsera3;Pulseras;7.000000;7;0;1;
+33;http://localhost/prestashop/77/pulsera-trenzada.jpg;"Pulsera trenzada";pulsera4;Pulseras;5.000000;5;0;1;
+34;http://localhost/prestashop/78/pulsera-para-nina.jpg;"Pulsera para niña";pulsera5;Pulseras;5.000000;5;0;1;
+35;http://localhost/prestashop/79/pulsera-cintas.jpg;"Pulsera cintas";pulsera6;Pulseras;5.000000;5;0;1;
+37;http://localhost/prestashop/80/pulsera-macrame.jpg;"Pulsera macramé";pulsera7;Pulseras;7.000000;7;0;1;
+38;http://localhost/prestashop/81/pulsera-perlitas.jpg;"Pulsera perlitas";pulsera8;Pulseras;7.000000;7;0;1;

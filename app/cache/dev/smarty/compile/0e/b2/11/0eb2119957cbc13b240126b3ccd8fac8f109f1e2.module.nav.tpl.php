@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-12-20 10:31:16
+<?php /* Smarty version Smarty-3.1.19, created on 2018-01-17 20:27:38
          compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6836973005a0eb9664c4ff6-96710461%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2610474815a5fa3aa4c10f0-74014804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,20 +11,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '6836973005a0eb9664c4ff6-96710461',
+  'nocache_hash' => '2610474815a5fa3aa4c10f0-74014804',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a0eb9664d1c08_24199555',
   'variables' => 
   array (
     'contact_infos' => 0,
     'urls' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a5fa3aa4cebc6_02753673',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a0eb9664d1c08_24199555')) {function content_5a0eb9664d1c08_24199555($_smarty_tpl) {?><!-- begin /Applications/MAMP/htdocs/prestashop/themes/classic/modules/ps_contactinfo/nav.tpl -->
+<?php if ($_valid && !is_callable('content_5a5fa3aa4cebc6_02753673')) {function content_5a5fa3aa4cebc6_02753673($_smarty_tpl) {?><!-- begin /Applications/MAMP/htdocs/prestashop/themes/classic/modules/ps_contactinfo/nav.tpl -->
   <li class="cms-page" id="cms-page-14">
 
     <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['phone']) {?>

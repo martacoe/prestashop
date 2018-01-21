@@ -42,6 +42,6 @@
     {block name='hook_cms_print_button'}
       {hook h='displayCMSPrintButton'}
     {/block}
-
+    
   </section>
 {/block}
